@@ -18,7 +18,6 @@ body {
     height: 100vh;
     background-color: var(--color-primary);
     display: flex;
-    min-height: 100vh;
     background-color: var(--color-primary);
     display: flex;
     flex-direction: column;
@@ -34,7 +33,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
     width: 100%;
 }
 
@@ -92,29 +90,28 @@ body {
 }
 
 .button-container {
-    width: 500px;
+    width: 300px;
     display: flex;
-    flex-direction:row;
-    justify-content: center;
-    gap: 50px
     flex-direction: row;
+    border-radius: 25px;
     justify-content: center;
     gap: 50px;
     margin-bottom: 50px;
-
 }
 
 .input-title {
-    flex: 1;
-    padding: 10px 15px;
-    font-size: 16px;
-    border: 2px solid #333;
-    border-right: none;
-    border-radius: 25px 0 0 25px;
-    font-family: "Merriweather", serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    flex: 60%;
+    background-color: var(--color-secondary);
+    border: 1px solid #000;
+    border-radius: 64px 64px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
 }
-button {
+
+.button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -154,11 +151,12 @@ ul {
     display: flex;
     justify-content: center;
     align-items:center;
-    width: 100%;
+    width: auto;
     padding: 10px 40px;
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+    border-radius: 25px 25px 25px 25px;
 }
 
 .button-draw img {
@@ -170,7 +168,7 @@ ul {
 }
 
 .imagem-principal {
-    width: 40%;
+    width: 30%;
 }
 
 .footer {
